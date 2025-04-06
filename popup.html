@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Keyword Blocker</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body class="dark">
+  <div class="container rounded">
+    <h1>Blocked Keywords</h1>
+    <ul id="keywordsList" class="rounded"></ul>
+    <input type="text" id="keywordInput" placeholder="Add a new keyword" class="rounded" />
+    <button id="addKeywordButton" class="rounded">Add Keyword</button>
+    <div class="button-container">
+      <button id="exportKeywordsButton" class="rounded">Export Keywords</button>
+      <input type="file" id="importKeywordsInput" style="display: none;" />
+      <button id="importKeywordsButton" class="rounded">Import Keywords</button>
+      <button id="clearKeywordsButton" class="rounded">Clear All Keywords</button>
+    </div>
+    <div class="theme-toggle rounded">
+      <label for="themeSwitch">Dark Mode</label>
+      <input type="checkbox" id="themeSwitch" checked>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
