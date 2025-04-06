@@ -21,7 +21,7 @@ This extension will be available on the Chrome Web Store. Stay tuned for the lin
 ### Manual Installation
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git clone https://github.com/RustyadYT/YouTube-Video-Hider.git
 Open Chrome and navigate to chrome://extensions/.
 Enable Developer Mode (toggle in the top-right corner).
 Click "Load unpacked" and select the folder containing the extension files.
