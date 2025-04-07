@@ -50,4 +50,5 @@ Contact
 For questions or feedback, feel free to reach out:
 
 GitHub: RustyLabs
+
 Discord: rustylabs
